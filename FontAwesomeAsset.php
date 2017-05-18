@@ -13,15 +13,20 @@ namespace tangniyuqi\fontAwesome;
 
 class FontAwesomeAsset extends \yii\web\AssetBundle
 {
-	/**
-     * @inheritdoc
-     */
-    public $sourcePath = '@vendor/tangniyuqi/fontAwesome/dist/';
-
     /**
      * @inheritdoc
      */
     public $css = [
         'css/font-awesome.min.css',
     ];
+
+    /*
+     * @inheritdoc
+     */
+    public function init()
+    {
+        parent::init();
+
+        $this->sourcePath = dirname(__FILE__).DIRECTORY_SEPARATOR.'dist';
+    }
 }
