@@ -1,8 +1,8 @@
 {
-    "name": "tangniyuqi/yii2-fontAwesome",
-    "description": "The FontAwesome extension for the Yii framework",
-    "keywords": ["yii2", "extension", "view", "theme", "plugin", "zui", "ZUI"],
-    "homepage": "https://github.com/tangniyuqi/yii2-fontAwesome",
+    "name": "tangniyuqi/yii2-fontawesome",
+    "description": "The fontawesome extension for the Yii framework",
+    "keywords": ["yii2", "extension", "fontawesome"],
+    "homepage": "https://github.com/tangniyuqi/yii2-fontawesome",
     "type": "yii2-extension",
     "language": "php",
     "license": "BSD 3-Clause",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "tangniyuqi\\fontAwesome\\": ""
+            "tangniyuqi\\fontawesome\\": ""
         }
     },
     "extra": {
