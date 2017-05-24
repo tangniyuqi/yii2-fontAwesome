@@ -27,6 +27,6 @@ class FontAwesomeAsset extends \yii\web\AssetBundle
     {
         parent::init();
 
-        $this->sourcePath = dirname(__FILE__).DIRECTORY_SEPARATOR.'dist';
+        $this->sourcePath = dirname(__FILE__).DIRECTORY_SEPARATOR.'assets';
     }
 }
